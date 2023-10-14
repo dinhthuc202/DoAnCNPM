@@ -1,0 +1,133 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Black.ttf') 
+  }
+
+.main {
+    background-color:#F0F2F5;
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .forgot {
+    background-color: #fff;
+    width:568px;
+    height:543px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.forgot  .title {
+    width:100%;
+    height:58px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top:20px;
+}
+
+.forgot .item {
+    width:80%;
+    position:relative;
+    left:60px;
+    top:20px;
+}
+
+.forgot .item p {
+    font-weight: 500;
+    margin-bottom:10px;
+    font-family: Roboto;
+}
+
+.forgot .item .input {
+    background-color: #F7F7F7;
+    border:none;
+    width:100%;
+    height:50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom:30px;
+    display:flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+}
+
+.forgot .item .eye {
+    position:absolute;
+    top:155px;
+    right:20px;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+.forgot .item .and {
+    width:80%;
+    margin-left:50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forgot .item .and .line {
+    background-color: #EEEEEE;
+    width:90px;
+    height:1px;
+}
+
+.forgot .item .email .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.forgot .item .btn {
+    width:100%;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.forgot .item .btn button {
+    width:50%;
+    height:100%;
+    text-align: center;
+    background-color: #00BF6F;
+    border:none;
+    outline:none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    color:#fff;
+}
+
+.forgot .item .btn button:hover {
+    transform: scale(0.94);
+    transition: transform 1s ease-in-out;
+}
+
+.forgot .item .text_link {
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.forgot .item .text_link p {
+    margin-right:10px;
+    font-weight: 400 ;
+    font-family: none;
+}

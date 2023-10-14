@@ -1,0 +1,172 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Black.ttf') 
+  }
+
+.main {
+    background-color:#F0F2F5;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .singup {
+    background-color: #fff;
+    width:600px;;
+    height:851px;
+    border-radius: 20px;
+    margin:50px;
+}
+
+.singup  .title {
+    width:100%;
+    height:28px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top:20px;
+}
+
+.singup .item {
+    width:80%;
+    position:relative;
+    left:60px;
+    top:40px;
+}
+
+.singup .item p {
+    font-weight: 300;
+    margin-bottom:10px;
+    font-family: Roboto;
+}
+
+.singup .item .input {
+    background-color: #F7F7F7;
+    border:none;
+    width:100%;
+    height:50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom:20px;
+    padding-left:20px;
+}
+
+.singup .item .pass .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singup a {
+    text-decoration: none;
+}
+
+.singup .item .pass .eye1 {
+    position:absolute;
+    top:245px;
+    right:20px;
+}
+
+.singup .item .pass .eye2 {
+    position:absolute;
+    top:343px;
+    right:20px;
+}
+
+.singup .item .btn {
+    width:100%;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.singup .item .box {
+    display:flex;
+    justify-content: centter;
+    align-items:first baseline;
+    margin-bottom: 30px;;
+}
+
+.singup .item .box p {
+    margin-left:10px;
+    font-family: Roboto;
+    
+}
+
+.singup .item .input::focus {
+    padding:10px;
+}
+
+.singup .item .btn button {
+    width:50%;
+    height:100%;
+    text-align: center;
+    background-color: #00BF6F;
+    border:none;
+    outline:none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    color:#fff;
+}
+
+.singup .item .btn button:hover {
+    transform: scale(0.94);
+    transition: transform 1s ease-in-out;
+}
+
+.singup .item .link .and {
+    width:60%;
+    margin-left:100px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.singup .item .link .and .line {
+    background-color: red;
+    width:100px;
+    height:1px;
+}
+
+.singup .item .link .link_item {
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.singup .item .link .link_item button {
+    border:none;
+    outline:none;
+    background:transparent;
+    margin:10px;
+    cursor: pointer;
+    
+}
+
+.singup .item .link .text_link {
+    display:flex;
+    justify-content:center;
+}
+
+.singup .item .link .text_link p ,
+.singup .item .box p {
+    margin-right:10px;
+    font-weight: 400 ;
+    font-family: none;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
